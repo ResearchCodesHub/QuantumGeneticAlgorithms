@@ -1,5 +1,7 @@
 # QuantumGeneticAlgorithms
 
+Genetic algorithms (GAs) are a class of evolutionary algorithms inspired by Darwinian natural selection.  They are popular heuristic optimisation methods based on simulated genetic mechanisms, i.e. mutation, crossover, etc. and population dynamical processes such as reproduction, selection, etc. Over the last decade, the possibility to emulate a quantum computer (a computer using quantum-mechanical phenomena to perform operations on data) has led to a new class of GAs known under the name of ‘Quantum Genetic Algorithms’. In this repository we present three programs that illustrate different versions of quantum evolutionary algorithms: QGA, HGA and RQGA.
+
 Quantum Genetic Algorithm (QGA) is a QGA that can be used for the purposes of education and research. 
 QGA is applied in a simple optimization problem: Let  f(x)=abs(x-5/2+sin(x)) be a function that takes
 values in the range 0<=x<=15. Within this range f(x) has a maximum value at x=11 (binary value is equal to 1011).
@@ -12,8 +14,7 @@ range 0<=x<=15. Within this range f(x) has a maximum value at x=11 (binary value
 Reduced Quantum Genetic Algorithm (RQGA) is a program in Python showing how to implement a 'true' quantum genetic algorithm
 based on a fitness quantum gate and Grover's search algorithm. It  can be used for the purposes of education and research. 
 RQGA is applied in a simple optimization problem: Let  f(x)=abs(x-5/2+sin(x)) be a function that takes values in the range
-0<=x<=15. Within this range f(x) has a maximum value at x=11 (binary value is equal to 1011). 
-The program should be understood as a thinker toy, illustrating the ideas taken from the papers cited below.
+0<=x<=15. Within this range f(x) has a maximum value at x=11 (binary value is equal to 1011). The program should be understood as a thinker toy, illustrating the ideas taken from the papers cited below.
 
 REFERENCES
 
