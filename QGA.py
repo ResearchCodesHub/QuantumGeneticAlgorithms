@@ -204,15 +204,15 @@ def rotation():
 # pop_mutation_rate: mutation rate in the population
 # mutation_rate: probability of a mutation of a bit
 def mutation(pop_mutation_rate, mutation_rate):
-    uallele=0;
+    
     for i in range(1,popSize):
         up=np.random.random_integers(100)
         up=up/100
         if up<=pop_mutation_rate:
             for j in range(1,genomeLength):
-                ualelle=up=np.random.random_integers(100)
-                ualelle=ualelle/100
-                if uallele<=mutation_rate:
+                um=np.random.random_integers(100)
+                um=um/100
+                if um<=mutation_rate:
                     nqpv[i,j,0]=qpv[i,j,1]
                     nqpv[i,j,1]=qpv[i,j,0]
                 else:
